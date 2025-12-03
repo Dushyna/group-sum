@@ -7,5 +7,5 @@ public abstract class GroupSum {
         this.numberGroups = numberGroups;
     }
 
-    public abstract int computeSum();
+    public abstract int computeSum() throws InterruptedException;
 }

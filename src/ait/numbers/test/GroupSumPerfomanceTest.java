@@ -11,7 +11,7 @@ public class GroupSumPerfomanceTest {
         this.groupSum = groupSum;
     }
 
-    public void runTest() {
+    public void runTest() throws InterruptedException {
         long t1 = System.currentTimeMillis();
         int sum = groupSum.computeSum();
         long t2 = System.currentTimeMillis();
